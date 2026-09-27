@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Neon Hive</title>
+<meta name="description" content="Neon Hive — a maze shooter for iPhone. Support and contact.">
+<style>
+  :root{
+    --bg:#06090f; --card:#0c121c; --line:rgba(120,160,255,.18);
+    --ink:#dbe6ff; --dim:#8fa3c8; --cyan:#4de8ff; --violet:#a97bff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif;
+    padding:48px 16px 80px;
+  }
+  .wrap{max-width:660px;margin:0 auto}
+  h1{
+    font-size:34px; letter-spacing:.16em; margin:0 0 4px; font-weight:800;
+    background:linear-gradient(90deg,var(--cyan),var(--violet));
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .tag{color:var(--dim); letter-spacing:.14em; font-size:12px;
+       text-transform:uppercase; margin:0 0 40px}
+  h2{font-size:15px; letter-spacing:.12em; text-transform:uppercase;
+     color:var(--cyan); margin:38px 0 10px; font-weight:700}
+  p{margin:0 0 14px}
+  a{color:var(--cyan)}
+  .card{
+    background:var(--card); border:1px solid var(--line);
+    border-radius:12px; padding:20px 22px; margin:18px 0;
+  }
+  .mail{font-size:18px; font-weight:700; letter-spacing:.02em}
+  ul{margin:0 0 14px; padding-left:20px} li{margin:6px 0}
+  footer{margin-top:52px; padding-top:20px; border-top:1px solid var(--line);
+         color:var(--dim); font-size:13px}
+  @media (prefers-color-scheme:light){
+    :root{--bg:#f6f8fc;--card:#fff;--ink:#16203a;--dim:#5a6b8c;
+          --line:rgba(30,60,120,.16);--cyan:#0a84c4;--violet:#6b3fd4}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>NEON HIVE</h1>
+  <p class="tag">Support &amp; Contact</p>
+
+  <p>Neon Hive is a maze shooter for iPhone — twenty levels of neon corridors,
+     three side-scrolling gauntlets, and four bosses between you and the way
+     out.</p>
+
+  <h2>Get help</h2>
+  <div class="card">
+    <p>Questions, bug reports, or anything that went wrong:</p>
+    <p class="mail"><a href="mailto:23mystiq@gmail.com">23mystiq@gmail.com</a></p>
+    <p style="color:var(--dim);font-size:14px;margin:0">
+      Please include your device model and iOS version — it makes problems much
+      faster to track down.</p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <p><strong>My progress disappeared.</strong><br>
+     Progress is saved on your device, not in the cloud. Deleting the app
+     deletes its save slots, and they cannot be recovered.</p>
+
+  <p><strong>Can I replay the ending?</strong><br>
+     Yes — finish the campaign once and WATCH THE ENDING appears on the main
+     menu. It is tied to the save slot that finished, so deleting that slot
+     also removes it.</p>
+
+  <p><strong>There is no sound.</strong><br>
+     Check that your device is not in silent mode, and that the in-game volume
+     sliders under the gear icon are not turned down.</p>
+
+  <p><strong>My score is not on the leaderboard.</strong><br>
+     Leaderboards use Game Center. Sign in to Game Center in your device
+     settings, then submit a score from the results screen.</p>
+
+  <h2>Privacy</h2>
+  <p>Neon Hive collects nothing. See the
+     <a href="privacy.html">privacy policy</a> for the details.</p>
+
+  <footer>
+    Neon Hive &middot; a modern reimagining of the 1983 maze shooter Snipes.<br>
+    Support: <a href="mailto:23mystiq@gmail.com">23mystiq@gmail.com</a>
+  </footer>
+
+</div>
+</body>
+</html>
